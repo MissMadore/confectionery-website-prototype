@@ -102,7 +102,6 @@ nav a:hover {
 .sweet {
   background-color: #058789;
   padding: .5em;
-
 }
 
 .savoury {
@@ -161,7 +160,7 @@ footer {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -90%)
+    transform: translate(-50%, -90%);
   }
 
   p {
