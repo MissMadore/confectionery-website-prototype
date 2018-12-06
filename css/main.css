@@ -118,7 +118,6 @@ footer {
   padding: 2em;
 }
 
-
 @media only screen and (min-width: 25em) {
 
   html {
@@ -143,7 +142,6 @@ footer {
   nav ul li {
     display: inline-block;
   }
-
 
 }
 
@@ -199,6 +197,6 @@ footer {
 
   html {
     font-size: 130%;
-    }
+  }
 
 }
