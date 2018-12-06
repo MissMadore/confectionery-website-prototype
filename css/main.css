@@ -18,7 +18,7 @@ html {
 }
 
 .img-flex {
-  display: flex;
+  display: block;
   width: 100%;
 }
 
@@ -180,6 +180,20 @@ footer {
 
   html {
     font-size: 120%;
+    line-height: 1.5;
+    }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
     line-height: 1.5;
     }
 
