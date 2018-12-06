@@ -67,6 +67,10 @@ nav ul li a {
   font-size: 1.125rem;
 }
 
+nav a:hover {
+  color: #e3a72f;
+}
+
 .small-img-banner {
   display: flex;
 }
