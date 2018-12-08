@@ -11,6 +11,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: Poppins, sans-serif;
 }
 
 *, *::before, *::after {
@@ -42,6 +43,7 @@ h1 {
   padding: 1em 0;
   color: #fff;
   font-family: Unlock, cursive;
+  font-size: 2.2rem;
 }
 
 nav {
@@ -49,7 +51,7 @@ nav {
 }
 
 nav ul {
-  padding: 0;
+  padding: 0 .5rem;
   margin: 0;
   list-style-type: none;
   text-align: center;
@@ -70,13 +72,27 @@ nav ul li a {
 nav a:hover {
   color: #e3a72f;
 }
-
 .small-img-banner {
   display: flex;
+  padding: 1em 0;
+  background-color: #e77348;
 }
 
 .banner-img {
   width: 33.333%;
+}
+
+h2 {
+  text-align: center;
+  font-family: Unlock, cursive;
+  font-size: 1.65rem;
+  color: #fff;
+}
+
+p {
+  padding: 0 0.5rem;
+  text-align: justify;
+  color: #333;
 }
 
 .welcome,
@@ -104,19 +120,57 @@ nav a:hover {
   padding: .5em;
 }
 
+.sweet-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sweet-content {
+  width: 50%;
+}
+
+.sweet p {
+  padding: 0 0.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+.sweet-img {
+  width: 50%;
+}
+
 .savoury {
   background-color: #e3a72f;
   padding: .5em;
 }
 
-h2 {
-  text-align: center;
-  font-family: Unlock, cursive;
-  color: #fff;
+.savoury-container {
+  display: flex;
+  justify-content: center;
 }
+
+.savoury-content {
+  width: 50%;
+}
+
+.savoury p {
+  padding: 0 0.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+.savoury-img {
+  width: 50%;
+}
+
 
 footer {
   padding: 2em;
+  color: #fff;
+}
+
+.cursor {
+  max-width: 1rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -131,8 +185,12 @@ footer {
     margin: 0 0 1.3rem;
   }
 
+  h2 {
+    font-size: 1.75rem;
+  }
   p {
     margin: 0 0 1.3rem;
+    line-height: 1.35em;
   }
 
   nav ul {
@@ -154,7 +212,7 @@ footer {
   }
 
   h1 {
-    color: #000;
+
     margin: 0 0 1.4rem;
     position: absolute;
     left: 50%;
@@ -162,7 +220,12 @@ footer {
     transform: translate(-50%, -90%);
   }
 
+  h2 {
+    font-size: 1.85rem;
+  }
+
   p {
+    padding: 0 1rem;
     margin: 0 0 1.4rem;
   }
 
@@ -190,6 +253,10 @@ footer {
   h1,
   p {
     margin: 0 0 1.5rem;
+  }
+
+  p {
+    padding: 0 3.5rem;
   }
 
 }
