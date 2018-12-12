@@ -29,7 +29,7 @@ body {
 
 header {
   background-color: #058789;
-  padding: 0 0 1rem;
+  padding: 0 0 1.3rem;
   text-align: center;
   border-radius: 0 0 10px 10px;
   margin-bottom: 1.3rem;
@@ -75,17 +75,19 @@ nav ul li a {
 
 nav a:hover {
   color: #e3a72f;
+  text-decoration: underline;
 }
 
 main {
   border-radius: 10px;
 }
+
 .small-img-banner {
   display: flex;
   justify-content: space-evenly;
-  margin: 0 0.5rem;
+  margin: 0 0.8rem 1.3rem;
   padding: 1rem 0.5rem;
-  background-color: #e3a27f;
+  background-color: #e05e2f;
   border-radius: 10px;
 }
 
@@ -106,66 +108,86 @@ p {
   color: #333;
 }
 
-.welcome,
-.sweet,
-.savoury {
-  display: block;
-}
-
 .welcome {
-  /*background-color: #e3a27f;*/
-  margin-bottom: 1rem;
+  background-color: #e3a27f;
 }
 
 .welcome-banner {
   display: flex;
   justify-content: space-evenly;
-  background-color: #e3a27f;
-  border-radius: 10px;
-  padding: 1rem 0.5rem;
-  margin: 0 0.5rem;
+  margin-bottom: 1.3rem;
 }
 
 .welcome-img {
-  width: 48%;
+  width: 46%;
 }
 
+.welcome,
 .sweet,
-.savoury {
+.savoury,
+.contact {
   border-radius: 10px;
-  padding: 1em;
-  margin: 0 0.5rem;
+  padding: 1.3rem;
+  margin: 0 0.8rem 1.3rem;
+}
+
+.top-btn {
+  padding: 0.3rem 0;
+  margin: .3rem 0;
+  text-align: center;
+}
+
+.top {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.3rem 0.5rem;
+  border: solid 1px #fff;
+  border-radius: 10px;
+}
+
+.top:hover {
+  color: #e77348;
+  border: solid 1px #e77348;
 }
 
 .sweet {
   background-color: #058789;
-  margin-bottom: 1rem;
 }
 
 .sweet-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-bottom: 1rem;
 }
 
 .sweet-content {
-  width: 50%;
+  width: 100%;
+  padding: 0 1rem 0 0.5rem;
 }
 
+.welcome h2,
 .sweet h2,
-.savoury h2 {
-  margin: 0 0 1rem;
+.savoury h2,
+.contact h2 {
+  margin: 0 0 1.3rem;
 }
 
-.sweet p
+.sweet p {
+
+  margin: 0 0 1.3rem;
+  text-align: center;
+
+}
+
 .savoury p {
-  padding: 0 0.5rem;
-  margin: 0;
+
+  margin: 0 0 1.3rem;
   text-align: center;
 }
 
 .sweet-img {
-  width: 50%;
+  width: 100%;
+  margin-bottom: 1.3rem;
 }
 
 .savoury {
@@ -174,29 +196,127 @@ p {
 
 .savoury-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 .savoury-content {
-  width: 50%;
+  padding: 0 0.5rem 0 1rem;
+  width: 100%;
 }
 
+.fill-images {
+  display: none;
+  justify-content: center;
+}
 
-
+.fill-img {
+  width: 30%;
+}
 
 .savoury-img {
+  display: none;
   width: 50%;
 }
 
+.savoury-img2 {
+  width: 100%;
+  margin-bottom: 1.3rem;
+}
+
+.contact {
+  background-color: #008b82;
+  text-align: center;
+}
+
+.contact-info {
+  margin-bottom: 1.3rem;
+  text-align: left;
+}
+
+.contact h3 {
+  margin-top: 0.5rem;
+  font-family: Unlock, cursive;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.contact dl {
+  list-style: none;
+  font-size: .8rem;
+}
+
+.contact dt {
+  margin-bottom: .3rem;
+  text-decoration: underline;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.contact dd {
+  color: #222;
+  margin: 0 0 0.8rem;
+}
+
+.contact-info dd {
+  padding-left: 1.5rem;
+}
+
+.address {
+  margin: 0 0 0 0.3rem;
+  display: inline-block;
+  max-width: 1rem;
+}
+
+.telephone,
+.cursor {
+  margin: 0 0.3rem;
+  display: inline-block;
+  max-width: 1rem;
+}
+
+.email-link {
+  text-decoration: underline;
+  color: #83d6de;
+}
+
+.email-link:hover {
+  color: #e3a72f;
+}
+
+.hours {
+  background-color: #aaa;
+  padding: 0.3rem 0 0.5rem;
+  margin-bottom: 1.3rem;
+  border-radius: 10px;
+}
+
+.hours dl {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.hours dt {
+  margin-bottom: .5rem;
+  padding-right: 0.5rem;
+  display: inline-block;
+  text-decoration: none;
+}
+.hours dd {
+  display: inline-block;
+  margin: 0;
+}
+
+.hours-break {
+
+}
 
 footer {
   padding: 2em;
   color: #fff;
 }
 
-.cursor {
-  max-width: 1rem;
-}
 
 @media only screen and (min-width: 25em) {
 
@@ -237,7 +357,6 @@ footer {
   }
 
   h1 {
-
     margin: 0 0 1.4rem;
     position: absolute;
     left: 50%;
@@ -246,7 +365,7 @@ footer {
   }
 
   h2 {
-    font-size: 1.85rem;
+    font-size: 2rem;
   }
 
   p {
@@ -257,6 +376,7 @@ footer {
   header {
     position: relative;
     border-radius: 0;
+    margin-bottom: 1.4rem;
   }
 
   .header-banner {
@@ -267,6 +387,82 @@ footer {
     display: none;
   }
 
+  .welcome-banner {
+    margin-bottom: 1.4rem;
+  }
+
+  .welcome,
+  .sweet,
+  .savoury,
+  .contact {
+    margin-bottom: 1.4rem;
+  }
+
+  .welcome h2,
+  sweet h2,
+  savoury h2 {
+    margin-bottom: 1.4rem;
+  }
+
+  .sweet-container,
+  .savoury-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .sweet-container,
+  .savoury-container,
+  .contact-container {
+    margin-bottom: 1.4rem;
+  }
+
+  .sweet-content,
+  .savoury-content {
+    width: 50%;
+  }
+
+  .sweet-img,
+  .savoury-img {
+    display: block;
+    width: 50%;
+  }
+
+  .savoury-img2 {
+    display: none;
+  }
+
+  .fill-images {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .contact h2 {
+    text-align: left;
+    margin-left: 1.4rem;
+  }
+
+  .contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .contact-info {
+    width: 55%;
+  }
+
+  .hours {
+    width: 45%;
+    margin-bottom: 0;
+  }
+
+  .contact>.top-btn {
+    text-align: left;
+    margin-left: 1.4rem;
+  }
+
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -276,13 +472,67 @@ footer {
     line-height: 1.5;
   }
 
-  h1,
+  h1 {
+    margin: 0 0 1.5rem;
+    font-size: 3.3rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
   p {
+    padding: 0 3.5rem;
     margin: 0 0 1.5rem;
   }
 
-  p {
-    padding: 0 3.5rem;
+  header {
+    margin-bottom: 1.5rem;
+  }
+
+  .welcome,
+  .sweet,
+  .savoury,
+  .contact {
+    margin-bottom: 1.5rem;
+  }
+
+  .welcome-banner {
+    margin-bottom: 1.5rem;
+  }
+
+
+  .welcome h2,
+  sweet h2,
+  savoury h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .sweet-content,
+  .savoury-content {
+    width: 65%;
+  }
+
+  .sweet-img,
+  .savoury-img {
+    width: 35%;
+  }
+
+  .contact h2 {
+    margin-left: 1.5rem;
+  }
+
+  .contact-container {
+    padding: 0 3rem;
+  }
+
+  .sweet-container,
+  .savoury-container,
+  .contact-container {
+    margin-bottom: 1.5rem;
+  }
+
+  .contact>.top-btn {
+    margin-left: 1.5rem;
   }
 
 }
@@ -292,5 +542,23 @@ footer {
   html {
     font-size: 130%;
   }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .sweet-container,
+  .savoury-container {
+    align-items: stretch;
+  }
+
+  .contact-container {
+    padding: 0 7rem;
+  }
+
 
 }
