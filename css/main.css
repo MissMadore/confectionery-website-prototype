@@ -474,7 +474,7 @@ footer {
 
   h1 {
     margin: 0 0 1.5rem;
-    font-size: 3.3rem;
+    font-size: 3.2rem;
   }
 
   h2 {
@@ -531,6 +531,10 @@ footer {
     margin-bottom: 1.5rem;
   }
 
+  .contact-info dl {
+    font-size: 0.95rem;
+  }
+
   .contact>.top-btn {
     margin-left: 1.5rem;
   }
@@ -560,5 +564,8 @@ footer {
     padding: 0 7rem;
   }
 
+  .contact-info dl {
+    font-size: 1.1rem;
+  }
 
 }
