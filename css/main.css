@@ -248,7 +248,7 @@ p {
 
 .contact dt {
   margin-bottom: .3rem;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: bold;
   display: inline-block;
 }
