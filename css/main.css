@@ -113,7 +113,6 @@ p {
 .welcome-banner {
   display: flex;
   justify-content: space-evenly;
-
   margin: 0 0.8rem 1.3rem;
   padding: 1rem 0.5rem;
   background-color: #e05e2f;
@@ -287,7 +286,7 @@ p {
 }
 
 .hours {
-  background-color: #aaa;
+  background-color: #e77348;
   padding: 0.3rem 0 0.5rem;
   margin-bottom: 1.3rem;
   border-radius: 10px;
