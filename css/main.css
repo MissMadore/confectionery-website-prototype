@@ -86,7 +86,6 @@ main {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 1.3rem;
-
 }
 
 .banner-img {
@@ -174,14 +173,11 @@ p {
 }
 
 .sweet p {
-
   margin: 0 0 1.3rem;
   text-align: center;
-
 }
 
 .savoury p {
-
   margin: 0 0 1.3rem;
   text-align: center;
 }
@@ -304,13 +300,10 @@ p {
   display: inline-block;
   text-decoration: none;
 }
+
 .hours dd {
   display: inline-block;
   margin: 0;
-}
-
-.hours-break {
-
 }
 
 footer {
@@ -372,6 +365,7 @@ small {
   h2 {
     font-size: 1.75rem;
   }
+
   p {
     margin: 0 0 1.3rem;
     line-height: 1.35em;
@@ -507,7 +501,6 @@ small {
   }
 
 
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -525,6 +518,7 @@ small {
   h2 {
     font-size: 3rem;
   }
+
   p {
     padding: 0 3.5rem;
     margin: 0 0 1.5rem;
@@ -544,7 +538,6 @@ small {
   .welcome-banner {
     margin-bottom: 1.5rem;
   }
-
 
   .welcome h2,
   sweet h2,
@@ -593,7 +586,6 @@ small {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
   }
 
   h4 {
@@ -605,7 +597,9 @@ small {
   .social-icons {
     max-width: 14rem;
   }
+
 }
+
 
 @media only screen and (min-width: 90em) {
 
