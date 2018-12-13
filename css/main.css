@@ -85,10 +85,8 @@ main {
 .small-img-banner {
   display: flex;
   justify-content: space-evenly;
-  margin: 0 0.8rem 1.3rem;
-  padding: 1rem 0.5rem;
-  background-color: #e05e2f;
-  border-radius: 10px;
+  margin-bottom: 1.3rem;
+
 }
 
 .banner-img {
@@ -115,7 +113,11 @@ p {
 .welcome-banner {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 1.3rem;
+
+  margin: 0 0.8rem 1.3rem;
+  padding: 1rem 0.5rem;
+  background-color: #e05e2f;
+  border-radius: 10px;
 }
 
 .welcome-img {
@@ -383,11 +385,11 @@ footer {
     display: block;
   }
 
-  .small-img-banner {
+  .welcome-banner {
     display: none;
   }
 
-  .welcome-banner {
+  .small-img-banner {
     margin-bottom: 1.4rem;
   }
 
